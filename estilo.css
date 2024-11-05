@@ -26,9 +26,9 @@
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
   }
-  nav a: hover {
+  nav a:hover {
     text-decoration: underline;
-    transform: scale (0 9);
+    transform: scale(0 9);
     transition: transform 0, 1;
   }
   cabecalho--nav {
@@ -39,7 +39,7 @@
   
   .roda {
     background-color: #5e4b55;
-    color: #black;
+    color: #000;
     text-align: center;
     padding: 10px 0;
     position: fixed;
