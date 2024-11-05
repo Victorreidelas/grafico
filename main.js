@@ -24,7 +24,7 @@ async function visualizarDados() {
   console.log(paragrafo);
   const container = document.getElementById("grafico--container");
 
-  container.appendChild(paragrafo);
+  container.appendChild(paragrafo)
 }
 
 visualizarDados();
