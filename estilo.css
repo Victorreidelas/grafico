@@ -1,13 +1,12 @@
 :root {
     --cor-de-texto: #000;
+    --cor-de-fundo: #00c2ff;
     --cor-de-cabecalho: #097179;
   }
   body {
     text-align: center;
+    background-color: var(--cor-de-fundo);
     margin: 0;
-    height: 10000%;
-    background: rgb(0,194,255);
-    background: linear-gradient(153deg, rgba(0,194,255,1) 14%, rgba(9,113,121,1) 50%);
   }
   
   header {
