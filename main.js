@@ -1,7 +1,7 @@
 const url =
   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2020/variaveis/543?localidades=N1[all]";
 
-  
+
   async function visualizarDados(){
 
     const res = await fetch(url)
@@ -10,7 +10,7 @@ const url =
    console.log(dados)
     regiao = 1
   
-     resultado_dados = (dados[0]['resultados'][0]["series"][regiao]['serie'])
+     resultado_dados = (dados[0]['resultados'][0]["series"][regiao])
     
      let ano = Object.keys(resultado_dados)
      let valor = Object.values(resultado_dados)
