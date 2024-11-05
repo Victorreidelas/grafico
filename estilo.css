@@ -31,7 +31,7 @@
     transform: scale (0 9);
     transition: transform 0, 1;
   }
-  b {
+  cabecalho--nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
