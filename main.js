@@ -10,12 +10,12 @@ const url =
    console.log(dados)
     regiao = 1
   
-     resultado_dados = (dados[0]['resultados'][0]["series"][regiao])
+     resultado_dados = (dados[0]['resultados'][0]["series"])
     
      let ano = Object.keys(resultado_dados)
      let valor = Object.values(resultado_dados)
   
-    resultado_regiao = (dados[0]['resultados'][0]["series"][regiao]["localidade"]['nome'])
+    resultado_regiao = (dados[0]['resultados'][0]["series"]["localidade"]['nome'])
   
     console.log(resultado_dados, resultado_regiao)
   
