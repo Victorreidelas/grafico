@@ -1,7 +1,7 @@
 :root {
     --cor-de-texto: #000;
     --cor-de-fundo: #00c2ff;
-    --cor-de-cabecalho: #097179;
+    --cor-de-cabecalho: #095e79;
   }
   body {
     text-align: center;
@@ -38,7 +38,7 @@
   }
   
   .roda {
-    background-color: #095e79;
+    background-color: #096d79;
     color: #000;
     text-align: center;
     padding: 10px 0;
