@@ -20,7 +20,7 @@ async function visualizarDados() {
 
   const paragrafo = document.createElement("p");
   paragrafo.classList.add("graficos--container__texto");
-  paragrafo.innerHTML = `No ano de ${ano[0]} foi obtido um valor de ${valor[0]}`;
+  paragrafo.innerHTML = `No ano de ${ano[0]} foi obtido um valor do produto interno bruto dos municípios de: ${valor[0]}`;
   console.log(paragrafo);
   const container = document.getElementById("grafico--container");
 
